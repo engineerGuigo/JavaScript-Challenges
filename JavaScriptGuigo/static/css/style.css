@@ -1,11 +1,11 @@
-.container-1 {
+.container-1, .container-2 {
     border: 2px solid blue;
     width: 80%;
     margin: 0 auto;
     text-align: center;
 }
 
-.flex-box-container-1 {
+.flex-box-container-1, .flex-box-rps {
     display: flex;
     border: 2px solid blue;
     padding: 50px;
@@ -21,3 +21,8 @@
     border: 2px solid blueviolet;
     align-items: center;
 }
+
+.flex-box-rps img:hover{
+    -webkit-filter: drop-shadow(5px 5px 5px rgb(0, 0, 0) );
+    filter: drop-shadow(5px 5px 5px rgb(0, 0, 0)); filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    }
